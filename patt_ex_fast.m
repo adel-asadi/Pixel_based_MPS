@@ -32,7 +32,7 @@ for k=1:o
         for i=1:m
         ti=TI(i:i+k1-m,j:j+k2-n,k:k+k3-o);
         Tem=[Tem reshape(ti,numel(ti),1)];
-        count=count+1
+        count=count+1;
         end
     end
 end
